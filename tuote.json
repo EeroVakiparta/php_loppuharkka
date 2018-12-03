@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1, 
+		"picurli" : "https://i.imgsafe.org/56/56ed879cac.png",
+		"nimi" : "Jokipiin Pellava",
+		"kategoria" : "saippua",
+		"hinta" : 18.90,
+		"paino" : 12
+	},
+	{
+		"id": 2, 
+		"picurli" : "https://i.imgsafe.org/51/5101202cd3.jpeg",
+		"nimi" : "Lifebuoy",
+		"kategoria" : "saippua",
+		"hinta" : 40.90,
+		"paino" : 10
+	},
+	{
+		"id": 3, 
+		"picurli" : "https://i.imgsafe.org/51/5114f29b0b.jpeg",
+		"nimi" : "LUX",
+		"kategoria" : "saippua",
+		"hinta" : 99.90,
+		"paino" : 13
+	},
+	{
+		"id": 4, 
+		"picurli" : "https://i.imgsafe.org/51/51059aca24.jpeg",
+		"nimi" : "Head & Shoulders",
+		"kategoria" : "shampoo",
+		"hinta" : 19.50,
+		"paino" : 11
+	},
+	{
+		"id": 5, 
+		"picurli" : "https://i.imgsafe.org/51/510a9dcabb.jpeg",
+		"nimi" : "Clear",
+		"kategoria" : "shampoo",
+		"hinta" : 21.30,
+		"paino" : 12
+	},
+	{
+		"id": 6, 
+		"picurli" : "https://i.imgsafe.org/56/56e0e2ff72.jpeg",
+		"nimi" : "Erittäin Hieno",
+		"kategoria" : "shampoo",
+		"hinta" : 22.10,
+		"paino" : 8
+	},
+	{
+		"id": 7, 
+		"picurli" : "https://i.imgsafe.org/51/511dd997eb.jpeg",
+		"nimi" : "Pepsodent",
+		"kategoria" : "hammastahna",
+		"hinta" : 14.20,
+		"paino" : 9
+	},
+	{
+		"id": 8, 
+		"picurli" : "https://i.imgsafe.org/51/511de31ccc.jpeg",
+		"nimi" : "Ciptadent",
+		"kategoria" : "hammastahna",
+		"hinta" : 15.09,
+		"paino" : 10
+	},
+	{
+		"id": 9, 
+		"picurli" : "https://i.imgsafe.org/51/511de75281.jpeg",
+		"nimi" : "Sensodine",
+		"kategoria" : "hammastahna",
+		"hinta" : 13.10,
+		"paino" : 11
+	},
+	{
+		"id": 10, 
+		"picurli" : "https://i.imgsafe.org/51/511df71979.jpeg",
+		"nimi" : "Delident",
+		"kategoria" : "hammastahna",
+		"hinta" : 16.20,
+		"paino" : 13
+	}
+]
