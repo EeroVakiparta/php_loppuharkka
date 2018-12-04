@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<title>phploppuharkka</title>
 	<meta charset="UTF-8">
 	<style>
-	.row-table {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-	tr:hover {
-		background-color: #42f4df;
-	}
-	th {
-		text-align: center;
-	}
+	.row-table {padding-left: 10px;	padding-right: 10px;}
+	tr:hover {background-color: #42f4df;}
+	th {text-align: center; padding: 7px;vertical-align: middle;}
+	input,select {border: 3px solid #dddddd;border-radius: 7px;}
 </style>
 </head>
 <body>
@@ -79,7 +74,7 @@
 			$result = json_decode($curl_response, true);
 		}?>
 
-		<table border="1" style="border: 3px solid #cecece; border-collapse: collapse; ">
+		<table border="2" style="border: 3px solid #dddddd; border-radius: 7px; border-collapse: collapse; ">
 			<tr>
 				<th>Id</th>
 				<th>Kuva</th>
