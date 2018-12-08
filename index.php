@@ -43,8 +43,11 @@
 		<?php if(!$_GET){ //jos ei syöteparametria -> palauta tyhjä array
 			$result = array();
 		}else{ 
+
 			//hae data API:sta
-			$url = "http://localhost/PHP_kurssi/phploppuharkka/tuote.php";
+			//$url = "http://localhost/PHP_kurssi/phploppuharkka/tuote.php";
+			$url = "https://loppuharkkaphp.000webhostapp.com/tuote.php";
+			
 			//tarkistetaan ettei parametri ole tyhjä
 			if($_GET['parametri']!=''){
 				$parametrit = '?' . $_GET['parametri'] . '=' . $_GET['strval'];
