@@ -10,7 +10,7 @@
 	input,select {border: 3px solid #dddddd;border-radius: 7px;}
 </style>
 </head>
-<body>
+<body style="position: absolute;  left: 20%; top: 20% transform: translate(-50%, -50%);">
 	<?php
 		//vaihtoehdot
 	$parametrit = array(
@@ -20,6 +20,8 @@
 		array('value'=>'hinta', 	'text'=>'hinta')
 	);
 	?>
+	<div>
+	</div><h1 style=" color: #111; font-family: 'Open Sans Condensed', sans-serif; font-size: 64px; font-weight: 700; line-height: 64px; margin: 0 0 0; padding: 20px 30px 20px 0px; text-align: center; text-transform: uppercase; ">SAIPPUAKAUPPIAS</h1></div>
 	<!-- formi gettimetodilla -->
 	<form action="index.php" method="get">
 		<!-- hakuparametrin valinta -->
