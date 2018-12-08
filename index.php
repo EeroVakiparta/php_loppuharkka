@@ -34,9 +34,10 @@
 		<br><br>
 		<!--  kirjoitus fieldi -->
 		<br>
-		<input type="text" name="strval" value="<?php echo (!empty($_GET['parametri']) && !empty($_GET['strval'])?$_GET['strval']:'') ?>"><br>
 		ID: 1-10<br>
 		Kategorioita: saippua, shampoo ja hammastahna<br>
+		<input type="text" name="strval" value="<?php echo (!empty($_GET['parametri']) && !empty($_GET['strval'])?$_GET['strval']:'') ?>"><br><br>
+		
 		<input type="submit" value="Hae"><br><br>
 
 	</form>
@@ -47,7 +48,7 @@
 			//hae data API:sta
 			//$url = "http://localhost/PHP_kurssi/phploppuharkka/tuote.php";
 			$url = "https://loppuharkkaphp.000webhostapp.com/tuote.php";
-			
+
 			//tarkistetaan ettei parametri ole tyhjä
 			if($_GET['parametri']!=''){
 				$parametrit = '?' . $_GET['parametri'] . '=' . $_GET['strval'];
